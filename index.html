@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">THE AWESOME LIBRARY</header>
+    <div class="content-container">
+      <div class="formContainer">
+        <form id="formElement" style="display: none" onsubmit="addBook()">
+          <div class="bookInformations">
+            <div><div class='formQuestions'>Name:</div> <input type="text" class="nameInput" /></div>
+            <div><div class='formQuestions'>Author:</div> <input type="text" class="authorInput" /></div>
+            <div><div class='formQuestions'>Pages:</div> <input type="number" class="pagesInput" /></div>
+            <button class="addBookBtn" type="submit"><span class='plusSymbol'>+</span><br>Add Book</button>
+          </div>
+        </form>
+      </div>
+      <div class="bookDisplay"></div>
+    </div>
+    <footer class="footer">Developed by Bruno Osanes © 2022</footer>
+    <script src="script/logic.js"></script>
+  </body>
+</html>

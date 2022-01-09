@@ -1,0 +1,155 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100vw;
+  justify-content: space-between;
+  min-height: 1vh;
+  background-color: #F7F1F0;
+}
+
+.formQuestions {
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  font-family: Marcellus SC;
+  color: #2D4059;
+}
+
+input {
+  border-bottom: 2px solid #2D4059;
+  border-style: dotted;
+  border-top: #E9C1AF;
+  border-left: #E9C1AF;
+  border-right: #E9C1AF;
+  background-color: #E9C1AF;
+  width: 20vw;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 1em;
+  color: #2D4059;
+
+
+}
+
+.header {
+  height: 12vh;
+  background-color: #2D4059;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E9C1AF;
+  font-weight: 700;
+  font-size: 35px;
+  width: 100vw;
+  position: fixed;
+  font-family: 'Marcellus SC', serif;;
+}
+
+.content-container {
+  display: flex;
+  flex-grow: 1;
+  margin: 0px;
+  width: 100vw;
+  margin-top: 12vh;
+  min-height: 82vh;
+}
+
+.formContainer {
+  height: 100vh;
+  min-width: 22vw;
+  margin: 0px 0px 0px 0px;
+  background-color: #E9C1AF;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+.bookInformations {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookContainer {
+  display: flex;
+}
+
+.bookDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-left: 22vw;
+}
+.newBook {
+  border: 1px solid #2D4059;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px 4px rgb(114, 114, 114);
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  margin: 10px 10px 10px 10px;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.addBookBtn {
+  height: 25vh;
+  width: 13vw;
+  align-self: center;
+  border-radius: 50%;
+  border-style: none;
+  margin-top: 20px;
+  background-color: #2D4059;
+  color: #E9C1AF;
+  box-shadow: 2px 2px 2px 2px rgb(138, 138, 138);
+}
+
+.plusSymbol {
+  font-size: 4em;
+}
+
+.removeBookBtn {
+  background-color: rgb(230, 79, 92);
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #2D4059;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.readStatusBtn {
+  background-color: rgb(255, 180, 186);
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #2D4059;
+  font-size: 30px;
+  font-weight: 700;
+}
+.greenBtn {
+  background-color: rgb(190, 233, 148);
+}
+
+.footer {
+  height: 6vh;
+  background-color: #2D4059;
+  width: 100vw;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+}
+
+button:hover {
+  font-size: larger;
+}
