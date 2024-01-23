@@ -37,7 +37,7 @@ const addBook = function () {
   library.push(newBook);
   /* showBook(newBook); */
   addBookFromArray(library);
-  clearInputBoxes()
+  clearInputBoxes();
 };
 function storeInput() {
   nameInputed = nameInput.value;
@@ -95,8 +95,8 @@ function addBookFromArray(array) {
     newBookName.innerHTML = `<b>Name:</b> ${e.name}`;
     newBookAuthor.innerHTML = `<b>Author:</b> ${e.author}`;
     newBookPages.innerHTML = `<b>Pages:</b> ${e.pages}`;
-    readStatusBtn.innerHTML = 'Not read'
-    readStatusBtn.addEventListener('click', readStatus)
+    readStatusBtn.innerHTML = "Not read";
+    readStatusBtn.addEventListener("click", readStatus);
     removeBookBtn.textContent = "Remove";
     removeBookBtn.addEventListener("mousedown", removeBook);
     newBook.appendChild(bookNumber);
@@ -109,10 +109,10 @@ function addBookFromArray(array) {
   });
 }
 
-function clearInputBoxes () {
-  nameInput.value = ''
-  authorInput.value = ''
-  pagesInput.value = ''
+function clearInputBoxes() {
+  nameInput.value = "";
+  authorInput.value = "";
+  pagesInput.value = "";
 }
 function showForm() {
   document.getElementById("formElement").style.display = "block";
